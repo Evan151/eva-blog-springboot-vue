@@ -56,23 +56,29 @@ export const constantRoutes = [
   },
 
   {
-    path: '/example',
+    path: '/blog',
     component: Layout,
-    redirect: '/example/table',
+    redirect: '/blog/article',
     name: 'Example',
-    meta: { title: 'Example', icon: 'el-icon-s-help' },
+    meta: { title: '博客管理', icon: 'el-icon-notebook-2' },
     children: [
       {
-        path: 'table',
-        name: 'Table',
+        path: 'article',
+        name: 'Article',
         component: () => import('@/views/table/index'),
-        meta: { title: 'Table', icon: 'table' }
+        meta: { title: '文章管理', icon: 'el-icon-notebook-1' }
       },
       {
-        path: 'tree',
-        name: 'Tree',
+        path: 'category',
+        name: 'Category',
+        component: () => import('@/views/category'),
+        meta: { title: '分类管理', icon: 'el-icon-s-order' }
+      },
+      {
+        path: 'label',
+        name: 'Lable',
         component: () => import('@/views/tree/index'),
-        meta: { title: 'Tree', icon: 'tree' }
+        meta: { title: '标签管理', icon: 'el-icon-collection-tag' }
       }
     ]
   },

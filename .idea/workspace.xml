@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cd9faed-00ac-4fc3-9156-f012ec16c785" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog-ui/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog-ui/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="0cd9faed-00ac-4fc3-9156-f012ec16c785" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +37,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ecuneva\Desktop\pojectCode\github\evan-blog-springboot-vue\evan-blog" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -50,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614815974497</updated>
       <workItem from="1614815975989" duration="543000" />
+      <workItem from="1614822516486" duration="291000" />
     </task>
     <servers />
   </component>
