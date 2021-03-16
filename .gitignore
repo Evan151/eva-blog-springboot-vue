@@ -17,3 +17,17 @@ tests/**/coverage/
 *.njsproj
 *.sln
 .
+
+
+post 	/project/category    	//增	
+delete  /project/category/{id}  //删
+put  	/project/category		//改
+{
+  "code": 20000,
+  "message": "新增成功"
+}
+get 	/project/category/{id}   //查by ID
+post 	/project/category/search   //分页查
+
+
+put /project/category
